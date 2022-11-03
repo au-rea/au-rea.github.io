@@ -1,0 +1,31 @@
+/*초기화*/
+*{margin: 0px; padding: 0px;}
+body{
+    width: 1200px;
+    margin: 0px auto; /* 가운데 정렬 */
+    font-size: 14px;
+}
+a{
+    text-decoration: none; /* 글자꾸미기 -> 기본적 밑줄 없애기 */
+    color :black;
+}
+a:visited{ /*방문 후에 */ 
+    text-decoration: none; /* 글자꾸미기 -> 기본적 밑줄 없애기 */
+    color :black;
+}
+ul{
+    margin: 0px; 
+    padding: 0px;
+}
+li{
+    list-style: none; /* list 옆에 검은 점 없애기 */
+} 
+img{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+table{
+    border-collapse: collapse; /*선 합치기*/
+    border-spacing: 0px;    /*td간 margin 없애기*/
+}
